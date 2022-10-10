@@ -1,11 +1,11 @@
 import "./App.css";
+import ImageWrapper from "./components/ImageWrapper";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Hello world </h1>
-      </header>
+      <title>jQuery City</title>
+      <ImageWrapper />
     </div>
   );
 }
