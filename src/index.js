@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+<<<<<<< HEAD
 import reportWebVitals from "./reportWebVitals";
 
 /* function App() {
@@ -14,14 +15,12 @@ import reportWebVitals from "./reportWebVitals";
   );
 } */
 
+=======
+
+>>>>>>> 26c6d99caf059e40bc6ef510f0a5ca1e8db4fb1d
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
